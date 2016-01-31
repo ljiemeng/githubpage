@@ -1,0 +1,349 @@
+body{
+	margin: 0;
+	min-width: 980px;
+	font-family: "微软雅黑"
+
+}
+a{
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,ul,p,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-weight: none;
+}
+.section{
+	text-align: center;
+	
+	padding:80px 0;
+	border-bottom: 1px solid #565656;
+	
+}
+.container{
+	text-align: center;
+	margin: 0 auto;
+	width: 980;
+	/*border: 2px solid black;*/
+}
+.section h3{
+
+	text-align: center;
+	font-size: 21;
+	font-weight: normal;
+	line-height: 1.1;
+	margin: 20px auto;
+
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!          共用div!        !!!!!!!!!!!!!!!!!!!!*/
+
+.header{
+	padding: 12px 0;
+	background: #f5f5f5;
+	
+
+	
+}
+.header-c{
+	height: 28px;
+	/*border: 1px solid black;*/
+	line-height: 25px;
+	padding: 10px 0;
+
+}
+.logo{
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.logo:hover{
+	color: #4078c0;
+}
+.search{
+	width: 300px;
+	border: 1px solid#ccc;
+	float: left;
+	background: #fff;
+	padding-left: 15px;
+	font-size: 13px;
+	color: #333;
+	border-radius: 5px;
+	font-weight: 360px;
+}
+
+.function{
+	float: left;
+	cursor: pointer;
+}
+.function li:hover{
+	color: #4078c0;
+
+}
+
+
+/*后代选择器*/
+.function li{
+	float: left;
+	padding: 0 10px;
+
+}
+/*群组选择器*/
+.signin,.signup{
+	float: right;
+	font-size: 13px;
+	padding: 6px 12px;
+	border: 1px solid#ccc;
+	border-radius: 5px;
+	margin-top: -10px;
+}
+.signup{
+	/*background-image: linear-gradient(#8add6d, #60b044);*/
+	background-image: -webkit-linear-gradient(#8add6d, #60b044);
+	background: #60b044;
+	border: 1px solid #60b044;
+	
+}
+.signup a{
+	color: white;
+}
+.signin{
+	background-image: linear-gradient(#fcfcfc, #eee);
+
+	background: #eee;
+	border:1px solid #eee; 
+	margin-left: 20px;
+}
+.signin a{
+	color: #333
+}
+
+/*!!!!!!!!!!!!!header!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+.main{
+	background:#202021 url(./image/5.png) center repeat
+}
+
+
+.mian{
+	background: #202020;
+	/*background: #202020 url("")*/
+}
+.signup-form{
+	width: 320px;
+	height: 351px;
+	/*border: 1px solid white;*/
+	float: right;
+	
+}
+.main-intor{
+	width: 620px;
+	color: white;
+	/*border: 1px solid red;*/
+	float: left;
+
+}
+/*TODO 待优化:浮动收缩问题*/
+.main-c{
+	height: 351px
+}
+.big-title{
+	text-shadow: 0 1px 3px #222;
+	font-size: 70px;
+	padding-top: 10px;
+	margin-top: 15px;
+	font-weight: normal;
+
+}
+
+
+.main-intor p{
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+
+.main-c p{
+	text-shadow: 0 1px 3px #222;
+}
+
+
+
+.signup-form p{
+	font-size: 13px;
+	line-height: 1.4;
+	color:#565656;
+}
+
+.logn{
+	font-size: 16px;
+	text-align: center;
+	background-image: linear-gradient(#8add6d, #60b044);
+	border-color: #5ca941;
+
+}
+.logn a{
+	color: white;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!main!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.enterprise{
+	height: 215px;
+	background-image:linear-gradient(#202d5f,#614381);
+	/*background-image:*/
+}
+
+.hidden{
+	height: 215px;
+	overflow: hidden;
+	
+	padding-bottom: 80px
+}
+
+.enterprise h2{
+	color: white;
+}
+.btn{
+	text-align: center;
+	color: #f5f5f5;
+	padding: 12px 20px;
+	font-size: 18px;
+	border-radius: 6px;
+	border: 1px solid white;
+}
+.inf{
+	text-align: left;
+	margin:10px auto;
+	background: #ffffff;
+	color: #565656;
+
+}
+.btn-blue{
+	display: inline-block;
+	/*width: 346px;*/
+	margin: 12px  auto;
+	background-image: linear-gradient(#45b3f3,#1d6ac8)
+}
+.gh-img{
+	width: 100%;
+	margin-top: 40px;
+	
+}
+/*!!!!!!!!!!!!!!!!!!!!!!Enterprise!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+.love{
+	height: 797px;
+
+}
+.love-reason{
+	width: 450px;
+	height: 350px;
+	/*border: 1px solid black;*/
+	float: left;
+	margin: auto auto;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+.l-img{
+
+	width: 133px;
+	height: 133px;
+	/*border: 1px solid black;*/
+	margin: 60px auto 40px;
+
+}
+.love-reason h3{
+	font-weight: normal;
+
+    text-align: center;
+}
+.love-reason p{
+	color: #565656;
+	text-align: center;
+	font-size: 14px;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!   LOVE    !!!!!!!!!!!!!!!!!!!!!!*/
+
+
+.sub-title{
+
+	font-size: 42px;
+	text-align: center;
+	font-weight: normal;
+	
+}
+.sub-info{
+	font-size: 16px;
+	color: #767676;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+/*TODO:待优化*/
+
+.btn-green{
+	display: inline-block;
+	/*width: 287px;*/
+	margin: 15px auto;
+	font-size: 16px;
+	background-image: linear-gradient(#8add6d,#60b044)
+}
+.btn-green a{
+	color: white;
+}
+
+.use img{
+	border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+	border-radius: 5px;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!The easiest way to use GitHub on Windows!!!!!!!!!!!!!!!!!
+
+*/
+
+.foot{
+	padding: 12px 0;
+	
+}
+.foot-c{
+	color: #565656;
+	height: 18px;
+	/*border: 1px solid black;*/
+	line-height: 16px;
+	padding: 30px 0;
+	font-size: 12px
+}
+.c-cat{
+	width: 240px;
+	float: left;
+}
+.cat{
+	width: 32px;
+	height: 32px;
+	margin: 0 auto ;
+	
+	margin-top: -10px;
+	/*float: left;*/
+
+}
+.right{
+	float: right;
+}
+.left li{
+	float: left;
+
+}
+.right li{
+	float: right;
+	
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!foot!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
